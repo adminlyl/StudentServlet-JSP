@@ -19,7 +19,7 @@ public class StudentDaoImo implements StudentDao {
 	private final String jdbcDriver = "com.mysql.cj.jdbc.Driver";
 	private final String url = "jdbc:mysql://localhost:3306/StudentSystem-JSP-Servlet?serverTimezone=UTC";
 	private final String userName = "root";
-	private final String password = "root";
+	private final String password = "123456";
 	private ArrayList<Student> students;
 
 	@Override

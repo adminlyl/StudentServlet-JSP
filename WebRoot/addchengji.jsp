@@ -28,7 +28,7 @@
 			<form class="layui-form" action="./AddChengji" method="post">
 				
 				<div class="layui-form-item">
-					<label for="phone" class="layui-form-label"> <span
+					<%--@declare id="phone"--%><label for="phone" class="layui-form-label"> <span
 						class="x-red">*</span>成绩
 					</label>
 					<div class="layui-input-inline">
@@ -38,7 +38,7 @@
 
 				</div>
 				<div class="layui-form-item">
-					<label for="L_email" class="layui-form-label"> <span
+					<%--@declare id="l_email"--%><label for="L_email" class="layui-form-label"> <span
 						class="x-red">*</span>课程名称
 					</label>
 					<div class="layui-input-inline">
@@ -53,7 +53,7 @@
 				
 
 				<div class="layui-form-item">
-					<label for="L_repass" class="layui-form-label"> </label>
+					<%--@declare id="l_repass"--%><label for="L_repass" class="layui-form-label"> </label>
 					<button class="layui-btn" lay-filter="add" lay-submit="">
 						增加</button>
 				</div>
